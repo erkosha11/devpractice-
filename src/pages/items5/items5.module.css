@@ -1,0 +1,42 @@
+.items5Cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items5Card {
+  position: relative;
+}
+
+.items5Img {
+  position: relative;
+}
+
+.items5Teacher {
+  border-radius: 30px;
+}
+
+.items5Graphic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 30%;
+}
+
+.items5CardMore {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  padding: 0;
+  border-radius: 80px;
+
+  width: 380px;
+}
+
+.items5CardMore p {
+  padding: 0 20px;
+  text-align: center;
+}
