@@ -1,24 +1,26 @@
-.headerContent{
+.header {
+  padding-top: 50px;
+}
+
+.headerContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.headerContent{
+.headerContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
-
-.headerButtons{
+.headerButtons {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.headerMenu{
+.headerMenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,11 +49,11 @@
   color: #ffffffb2;
 }
 
-.headerButtons{
+.headerButtons {
   gap: 100px;
 }
 
-.headerSignButton button{
+.headerSignButton button {
   display: flex;
   align-items: center;
   box-shadow: 0px 5px 0px 0px #c5722f;

@@ -1,0 +1,42 @@
+.items1 {
+  background-color: black;
+  height: 878px;
+}
+
+.items1content {
+  background-image: url(../../assets/svg/bgball.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 110%;
+  height: 878px;
+}
+
+.items1Text {
+  margin-top: 180px;
+}
+
+.items1Title h1 {
+  color: #ffffff;
+  line-height: 105px;
+  margin: 0;
+}
+
+.items1Title span {
+  color: black;
+  font-size: 70px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 0;
+}
+
+.items1Subtitle h2 {
+  color: #ffffffb2;
+  margin-top: 30px;
+}
+
+.items1Subtitle span a {
+  color: #ffffffb2;
+  font-size: 34px;
+  font-style: italic;
+  font-weight: 700;
+}

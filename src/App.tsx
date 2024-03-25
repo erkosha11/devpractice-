@@ -1,12 +1,12 @@
 import './App.css'
-import Header from './components/header/header'
+import Items1 from './pages/items1/items1'
 
 function App() {
 
 
   return (
     <>
-      <Header />
+      <Items1 />
     </>
   )
 }
