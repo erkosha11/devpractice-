@@ -1,0 +1,167 @@
+.items4 {
+  margin-top: 100px;
+}
+
+.items4Title {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  color: #000000b2;
+  margin-bottom: 50px;
+}
+
+.items4Title h2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.items4Title span {
+  background-color: #000000b2;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.items4ImgLine {
+  position: absolute;
+  left: 0%;
+  top: 90%;
+  transform: translateY(-50%);
+}
+
+.items4Block {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.items4Text {
+  padding: 20px;
+}
+
+.itemsBc {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.itemsBc img {
+  max-width: 100%;
+}
+
+.items4Button {
+  margin-top: 20px;
+}
+
+.items4Text h1,
+.items4Text h2 {
+  color: #fff;
+}
+
+.itemsBc {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.itemsBc img {
+  max-width: 100%;
+  height: auto;
+}
+
+.items4Button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.items4Button button {
+  cursor: pointer;
+  border: none;
+  padding: 0px 50px;
+  color: black;
+  border-radius: 28px;
+  background: #dedee9;
+  box-shadow: 0px 8px 0px 0px #808080;
+}
+
+.items4v1440 {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .items4Block {
+    background-color: #f0f0f0;
+  }
+
+  .items4Text h1,
+  .items4Text h2 {
+    color: black;
+  }
+
+  .itemsBc {
+    display: none;
+  }
+
+  .items4v1440 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .items4v1440Price {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .items4v1440Pricekzt {
+    background-color: black;
+    padding: 7px 12px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .items4v1440Price h1 {
+    margin: 20px 0 30px 0;
+    font-size: 54px;
+    text-align: center;
+  }
+
+  .items4v1440Kaspi {
+    display: flex;
+    align-items: center;
+  }
+  .items4v1440Kaspi p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .items4v1440Kaspi img {
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+  .items4v1440button button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 20px 80px;
+    color: white;
+    font-size: 24px;
+    border-radius: 28px;
+    background: linear-gradient(219deg, #ea590d 7.74%, #fb913b 93.93%), #000;
+    box-shadow: 0px 5px 0px 0px #c5722f;
+  }
+
+}
