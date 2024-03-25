@@ -91,7 +91,14 @@
   transition: transform 0.5s ease;
 }
 
-.items7CardImg img {
+.items7CardImg {
+  width: 267px;
+  height: 471px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.items7CardImg img{
   width: 267px;
   height: 471px;
   object-fit: cover;
@@ -113,4 +120,27 @@
 
 .items7Text p {
   color: #00000080;
+}
+
+.items7Indicator {
+  display: flex;
+  gap: 10px;
+}
+
+.items7IndicatorItem {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.items7IndicatorItem.active {
+  background-color: #000;
+}
+
+@media screen and (max-width: 1280px) {
+  .items7Card:nth-child(n+2) {
+    display: none;
+  }
 }

@@ -11,7 +11,7 @@ const Items7Skeleton = ({ className }: { className: string }) => (
       foregroundColor="#ecebeb"
     >
       <rect x="0" y="0" rx="30" ry="30" width="267" height="471" />
-      <rect x="300" y="0" rx="30" ry="30" width="508" height="471" />
+      <rect x="300" y="0" rx="30" ry="30" width="535" height="471" />
     </ContentLoader>
   </div>
 );

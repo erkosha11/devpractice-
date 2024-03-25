@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { getReview, Review } from "../../api/review";
+import { Review } from "../../api/review";
+import getReview from "../../api/review.json";
 
 import Items7Skeleton from "./items7Skeleton";
 import styles from "./items7.module.css";
@@ -9,17 +10,12 @@ function Items7() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchReviews = async () => {
-      try {
-        const data = await getReview();
-        setReviews([...data]);
-      } catch (error) {
-        console.log("Error fetching reviews:", error);
-      }
-    };
-
-    fetchReviews();
+    setTimeout(() => {
+      setReviews(getReview);
+      setLoading(false);
+    }, 2000);
   }, []);
+
   return (
     <div className={styles.items7}>
       <div className="container">

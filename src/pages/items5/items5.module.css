@@ -1,6 +1,7 @@
 .items5Cards {
   display: flex;
   justify-content: space-around;
+  max-height: 480px;
 }
 
 .items5Card {
@@ -28,12 +29,14 @@
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   background-color: white;
   padding: 0;
   border-radius: 80px;
-
   width: 380px;
+}
+
+.items5Card {
+  text-align: center;
 }
 
 .items5CardMore p {

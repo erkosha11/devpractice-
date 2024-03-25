@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.postimg.cc/0ynvSkhc/1.jpg",
+    "name": "Темирлан Толеубеков",
+    "jobtitle": "Преподаватель бэкенд-разработки на языке Phyton"
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/D01kwnqQ/02.jpg",
+    "name": "Маулен Азикулов",
+    "jobtitle": "Преподаватель фронтенд-разработки JavaScript и React"
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/X7x1cr7G/03.jpg",
+    "name": "Фёдор Чангариди",
+    "jobtitle": "Методист учебно-методического центра"
+  },
+  {
+    "id": 4,
+    "img": "https://i.postimg.cc/prc8yMRT/04.jpg",
+    "name": "Анастасия Милова",
+    "jobtitle": "Куратор образовательных программ"
+  }
+]
