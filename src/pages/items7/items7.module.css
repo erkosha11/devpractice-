@@ -1,5 +1,12 @@
 .items7 {
   margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.items7Control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .items7Title {
@@ -23,4 +30,87 @@
   width: 16px;
   height: 16px;
   display: inline-block;
+}
+
+.items7Buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.items7Buttons button {
+  display: flex;
+  border-radius: 24px;
+  border: none;
+  height: 78px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-position: center;
+  background-size: 23%;
+  background-repeat: no-repeat;
+}
+
+.items7ArrowLeft {
+  background: #f0f0f0;
+  background-image: url(../../assets/svg/Arrow.svg);
+}
+
+.items7ArrowrRight {
+  background: #f0f0f0;
+  background-image: url(../../assets/svg/Arrow.svg);
+  transform: rotate(180deg);
+}
+
+.items7ArrowLeft:hover {
+  background-color: #000;
+  background-image: url(../../assets/svg/ArrowWhite.svg);
+  transform: rotate(180deg);
+}
+
+.items7ArrowrRight:hover {
+  background-color: #000;
+  background-image: url(../../assets/svg/ArrowWhite.svg);
+  transform: rotate(360deg);
+}
+
+.items7Cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.items7Card {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  width: 834px;
+  height: 471px;
+
+  transition: transform 0.5s ease;
+}
+
+.items7CardImg img {
+  width: 267px;
+  height: 471px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.items7Text {
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  padding: 45px;
+
+  width: 468px;
+  height: 381px;
+}
+
+.items7Text h2 {
+  margin: 0;
+}
+
+.items7Text p {
+  color: #00000080;
 }

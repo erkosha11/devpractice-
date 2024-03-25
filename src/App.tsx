@@ -5,6 +5,7 @@ import Items3 from './pages/items3/items3'
 import Items4 from './pages/items4/items4'
 import Items5 from './pages/items5/items5'
 import Items6 from './pages/items6/items6'
+import Items7 from './pages/items7/items7'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Items4 />
       <Items5 />
       <Items6 />
+      <Items7 />
     </>
   )
 }
