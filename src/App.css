@@ -1,42 +1,47 @@
-#root {
-  max-width: 1280px;
+.container{
+  width: 1760px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  background-color: black;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1{
+  font-size: 72px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  font-size: 34px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h3{
+  font-size: 26px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
 
-.card {
-  padding: 2em;
+h4{
+  font-size: 23px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
 
-.read-the-docs {
-  color: #888;
+h5{
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+p{
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+a{
+  font-size: 26px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
