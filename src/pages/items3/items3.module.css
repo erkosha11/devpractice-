@@ -1,0 +1,104 @@
+.items3 {
+  margin-top: 100px;
+}
+
+.items3Title {
+  color: #000000b2;
+}
+
+.items3Title h2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.items3Title span {
+  background-color: #000000b2;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.items3Cards {
+  display: flex;
+  gap: 30px;
+}
+
+.items3CardFrontend {
+  background-color: #f0f0f0;
+}
+
+.items3CardFrontend,
+.items3CardBackend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 870px;
+  height: 832px;
+  border-radius: 30px;
+}
+
+.items3CardBackend {
+  background-color: #000000;
+}
+
+.items3CardsContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 750px;
+  height: 711px;
+}
+
+.items3CardFrontend span {
+  color: #00000080;
+}
+
+.items3CardBackend span {
+  color: #f0f0f080;
+}
+
+.items3CardBackend h1,
+.items3CardBackend h2 {
+  color: #fff;
+}
+
+.items3CardFrontend p {
+  color: #00000080;
+}
+
+.items3CardBackend p {
+  color: #f0f0f080;
+}
+
+.items3CardsButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.items3CardsButton button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.items3ImgMore,
+.items3ImgClick {
+  width: 160px;
+  height: 260px;
+}
+
+.items3ImgMore {
+  width: 600px;
+  position: relative;
+}
+
+.items3ImgClick {
+  position: relative;
+  left: -50px;
+}
