@@ -7,7 +7,6 @@
 .footerContent {
   display: flex;
   justify-content: space-between;
-
 }
 
 .footerContent button {
@@ -47,4 +46,11 @@
 .footerRightButton h5 {
   color: #fff;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footerContent button{
+    height: 23px;
+    padding: 13px 15px;
+  }
 }

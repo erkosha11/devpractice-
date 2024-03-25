@@ -65,3 +65,42 @@
   height: 44px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1440px) {
+  .header {
+    padding: 40px 0;
+  }
+
+  .headerLogo img{
+    width: 67px;
+    height: 28px;
+  }
+
+  .headerMenuItem {
+    height: auto;
+    padding: 5px 15px;
+  }
+
+  .headerMenuItem a {
+    color: #000000b2;
+  }
+
+  .headerButtons {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .headerMenu {
+    height: 23px;
+  }
+
+  .headerSignButton h5 {
+    margin: 0;
+  }
+
+  .headerSignButton button {
+    height: 23px;
+    padding: 0 20px;
+  }
+}

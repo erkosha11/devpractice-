@@ -57,7 +57,9 @@ function Items4() {
                 </p>
               </div>
               <div className={styles.items4v1440button}>
-                <button>Оставить заявку</button>
+                <button>
+                  <h2>Оставить заявку</h2>
+                </button>
               </div>
             </div>
           </div>

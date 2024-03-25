@@ -51,3 +51,9 @@
   padding: 0px 150px;
   border: none;
 }
+
+@media screen and (max-width: 1440px){
+  .items6{
+    display: none;
+  }
+  }

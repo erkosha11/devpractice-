@@ -1,46 +1,16 @@
-.container{
+.container {
   width: 1760px;
   margin: 0 auto;
 }
 
-h1{
-  font-size: 72px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 1280px;
+  }
 }
 
-h2{
-  font-size: 34px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-}
-
-h3{
-  font-size: 26px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-}
-
-h4{
-  font-size: 23px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-}
-
-h5{
-  font-size: 20px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-}
-
-p{
-  font-size: 24px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-}
-
-a{
-  font-size: 26px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 910px;
+  }
 }

@@ -103,3 +103,61 @@
   position: relative;
   left: -50px;
 }
+
+@media screen and (max-width: 1440px) {
+  .items3CardFrontend,
+  .items3CardBackend {
+    width: 633px;
+    height: 631px;
+  }
+
+  .items3CardsContent {
+    width: 545px;
+    height: 543px;
+  }
+
+  .items3ImgMore,
+  .items3ImgClick {
+    width: 117px;
+    height: 144px;
+  }
+
+  .items3ImgMore {
+    width: 450px;
+    position: relative;
+  }
+
+  .items3ImgClick {
+    position: relative;
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .items3CardFrontend,
+  .items3CardBackend {
+    width: 450px;
+    height: 448px;
+  }
+
+  .items3CardsContent {
+    width: 387px;
+    height: 379px;
+  }
+
+  .items3ImgMore,
+  .items3ImgClick {
+    width: 83px;
+    height: 102px;
+  }
+
+  .items3ImgMore {
+    width: 328px;
+    position: relative;
+  }
+
+  .items3ImgClick {
+    position: relative;
+    left: -40px;
+  }
+}

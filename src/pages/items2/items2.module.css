@@ -18,3 +18,25 @@
   padding: 0 0 0 40px;
   height: 170px;
 }
+
+@media screen and (max-width: 1440px){
+
+  .items2ListItem{
+    height: 150px;
+  }
+
+  .items2List img{
+    width: 58px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .items2ListItem{
+    height: 106px;
+  }
+
+  .items2List img{
+    width: 41px;
+  }
+}

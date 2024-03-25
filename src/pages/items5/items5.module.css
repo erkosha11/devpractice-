@@ -43,3 +43,9 @@
   padding: 0 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 1440px){
+.items5{
+  display: none;
+}
+}
