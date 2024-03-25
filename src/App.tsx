@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/footer/footer'
 import Items1 from './pages/items1/items1'
 import Items2 from './pages/items2/items2'
 import Items3 from './pages/items3/items3'
@@ -19,6 +20,7 @@ function App() {
       <Items5 />
       <Items6 />
       <Items7 />
+      <Footer />
     </>
   )
 }

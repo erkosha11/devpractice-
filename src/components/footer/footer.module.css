@@ -1,0 +1,50 @@
+.footer {
+  border-top: 1px solid #d2d2d2;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footerContent button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  border-radius: 30px;
+  padding: 13px 22px;
+}
+
+.footerLeftButtons {
+  display: flex;
+  gap: 30px;
+}
+
+.footerLeftButtons button {
+  background-color: transparent;
+  border-color: #000000b2;
+}
+
+.footerRightButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerLeftButtons h3 {
+  margin: 0;
+  color: #000000b2;
+}
+
+.footerRightButton button {
+  gap: 10px;
+  background-color: #000000;
+}
+
+.footerRightButton h5 {
+  color: #fff;
+  margin: 0;
+}
