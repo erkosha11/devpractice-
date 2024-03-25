@@ -8,6 +8,7 @@ import styles from "./items7.module.css";
 function Items7() {
   const [reviews, setReviews] = useState<Review[]>([]);
   const [loading, setLoading] = useState(true);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     setTimeout(() => {
@@ -15,6 +16,18 @@ function Items7() {
       setLoading(false);
     }, 2000);
   }, []);
+
+  const nextReview = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === reviews.length - 2 ? 0 : prevIndex + 1
+    );
+  };
+
+  const prevReview = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? reviews.length - 2 : prevIndex - 1
+    );
+  };
 
   return (
     <div className={styles.items7}>
@@ -27,8 +40,14 @@ function Items7() {
               </h2>
             </div>
             <div className={styles.items7Buttons}>
-              <button className={styles.items7ArrowLeft}></button>
-              <button className={styles.items7ArrowrRight}></button>
+              <button
+                className={styles.items7ArrowLeft}
+                onClick={prevReview}
+              ></button>
+              <button
+                className={styles.items7ArrowrRight}
+                onClick={nextReview}
+              ></button>
             </div>
           </div>
           <div className={styles.items7Cards}>
@@ -38,17 +57,23 @@ function Items7() {
               ))
             ) : (
               <div className={styles.items7Cards}>
-                {reviews.map((review, index) => (
-                  <div className={styles.items7Card} key={index}>
-                    <div className={styles.items7CardImg}>
-                      <img src={review.img} alt={review.name} />
+                {[0, 1].map((index) => {
+                  const reviewIndex = (currentIndex + index) % reviews.length;
+                  return (
+                    <div className={styles.items7Card} key={index}>
+                      <div className={styles.items7CardImg}>
+                        <img
+                          src={reviews[reviewIndex].img}
+                          alt={reviews[reviewIndex].name}
+                        />
+                      </div>
+                      <div className={styles.items7Text}>
+                        <h2>{reviews[reviewIndex].name}</h2>
+                        <p>{reviews[reviewIndex].description}</p>
+                      </div>
                     </div>
-                    <div className={styles.items7Text}>
-                      <h2>{review.name}</h2>
-                      <p>{review.description}</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>

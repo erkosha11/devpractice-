@@ -1,6 +1,5 @@
 .items7 {
   margin-top: 100px;
-  margin-bottom: 50px;
 }
 
 .items7Control {
@@ -76,6 +75,7 @@
 
 .items7Cards {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   gap: 30px;
 }
