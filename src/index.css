@@ -1,50 +1,56 @@
 @import url("./assets/styles/Normalize.css");
 
-h1{
+.box {
+  display: flex;
+  align-items: center;
+  width: 1760px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+h1 {
   font-size: 72px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
-h2{
+h2 {
   font-size: 34px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
-h3{
+h3 {
   font-size: 26px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
-h4{
+h4 {
   font-size: 23px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
-h5{
+h5 {
   font-size: 20px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
-p{
+p {
   font-size: 24px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
-a{
+a {
   font-size: 26px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
 @media screen and (max-width: 1440px) {
-
-
   h1 {
     font-size: 54px;
   }
