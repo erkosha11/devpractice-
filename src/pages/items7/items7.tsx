@@ -30,7 +30,7 @@ function Items7() {
   };
 
   return (
-    <div className={styles.items7}>
+    <div className={styles.items7} id="comments">
       <div className="container">
         <div className={styles.items7Content}>
           <div className={styles.items7Control}>

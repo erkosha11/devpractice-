@@ -3,14 +3,12 @@ import styles from "./items4.module.css";
 import ImgLine from "../../assets/svg/items4.svg";
 import ImgBc from "../../assets/svg/items4v2.svg";
 import ImgKaspi from "../../assets/svg/kaspi.svg";
-import Logo from "../../assets/svg/Dev Practice.svg";
-import ImgExit from "../../assets/svg/exit.svg";
 
 import ModalItems4 from "../../components/modal/modal";
 
 import { motion } from "framer-motion";
+import React, { useState } from "react";
 import Modal from "@mui/material/Modal";
-import { useState } from "react";
 
 function Items4() {
   const [open, setOpen] = useState(false);
@@ -18,7 +16,7 @@ function Items4() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className={styles.items4}>
+    <div className={styles.items4} id="prices">
       <div className="container">
         <div className={styles.items4Content}>
           <div className={styles.items4Title}>
@@ -51,12 +49,7 @@ function Items4() {
                 <button onClick={handleOpen}>
                   <h2>Оставить заявку</h2>
                 </button>
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
-                >
+                <Modal open={open} onClose={handleClose}>
                   <motion.div
                     className="box"
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -72,26 +65,9 @@ function Items4() {
                       },
                     }}
                   >
-                    <div className={styles.modalItems4}>
-                      <div className={styles.ModalItems4Content}>
-                        <div className={styles.ModalItems4Header}>
-                          <a href="/">
-                            <img
-                              className={styles.headerImg}
-                              src={Logo}
-                              alt="logo"
-                            />
-                          </a>
-                          <button
-                            onClick={handleClose}
-                            className={styles.ModalItems4HeaderButton}
-                          >
-                            <img src={ImgExit} alt="exit"></img>
-                          </button>
-                        </div>
-                      </div>
-                      <ModalItems4 />
-                    </div>
+                    <React.Fragment>
+                      <ModalItems4 onClose={handleClose} />
+                    </React.Fragment>
                   </motion.div>
                 </Modal>
               </div>
@@ -112,7 +88,7 @@ function Items4() {
                 </p>
               </div>
               <div className={styles.items4v1440button}>
-                <button>
+                <button onClick={handleOpen}>
                   <h2>Оставить заявку</h2>
                 </button>
               </div>

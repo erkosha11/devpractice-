@@ -1,15 +1,11 @@
 .items1 {
   background-color: black;
-  height: 878px;
-}
-
-.items1content {
   background-image: url(../../assets/svg/bgball.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 110%;
   height: 878px;
 }
+
 
 .items1Text {
   margin-top: 180px;
@@ -47,6 +43,7 @@
 
 @media screen and (max-width: 1440px) {
   .items1 {
+    background-image: none;
     background-color: #ffffff;
     height: 650px;
   }

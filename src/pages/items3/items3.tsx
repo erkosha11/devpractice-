@@ -6,7 +6,7 @@ import ImgButtonBackend from "../../assets/svg/buttonback.svg";
 
 function Items3() {
   return (
-    <div className={styles.items3}>
+    <div className={styles.items3} id="courses">
       <div className="container">
         <div className={styles.items3Content}>
           <div className={styles.items3Title}>

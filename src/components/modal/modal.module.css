@@ -1,3 +1,46 @@
+.modalItems4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 30px;
+  background-color: #f0f0f0;
+
+  width: 1760px;
+  height: 770px;
+}
+
+.ModalItems4Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ModalItems4Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1640px;
+  height: 113px;
+}
+
+.headerImg {
+  width: 275px;
+  height: 113px;
+}
+
+.ModalItems4Header button {
+  border: none;
+  cursor: pointer;
+}
+
+.ModalItems4HeaderButton {
+  width: 25px;
+  height: 25px;
+}
+
 .ModalItems4Forms {
   display: flex;
   margin-top: 50px;
@@ -94,4 +137,36 @@
     rgba(234, 89, 13, 0.6) 7.74%,
     rgba(251, 145, 59, 0.6) 93.93%
   );
+}
+
+@media screen and (max-width: 1440px) {
+  .modalItems4 {
+    width: 1280px;
+    height: 540px;
+    margin-left: 80px;
+  }
+
+  .ModalItems4Header {
+    width: 1100px;
+    height: 94px;
+  }
+
+  .headerImg {
+    width: 150px;
+    height: auto;
+  }
+
+  .modalItems4Form input {
+    width: 1100px;
+    height: 50px;
+  }
+
+  .ModalItemsInput {
+    font-size: 24px;
+  }
+
+  .modalItems4FormChoice {
+    width: 1150px;
+    height: 94px;
+  }
 }
