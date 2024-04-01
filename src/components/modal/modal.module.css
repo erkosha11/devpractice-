@@ -42,102 +42,11 @@
 }
 
 .ModalItems4Forms {
-  display: flex;
+  width: 1640px;
   margin-top: 50px;
 }
 
-.modalItems4Form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  gap: 20px;
-}
 
-.modalItems4Form input {
-  width: 1590px;
-  height: 64px;
-  padding: 15px 25px;
-  color: rgba(0, 0, 0, 0.7);
-  border-radius: 23px;
-  background: #fff;
-  border: none;
-}
-
-.modalItems4FormChoice {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  border-radius: 30px;
-  background: #fff;
-
-  width: 1640px;
-  height: 94px;
-}
-
-.modalItems4FormChoice label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-
-  border-radius: 30px;
-  width: 810px;
-  height: 80px;
-}
-
-.modalItems4FormChoice input {
-  display: none;
-}
-
-.modalItems4FormChoice input:checked + label {
-  background-color: #000;
-  color: #fff;
-}
-
-.modalItems4FormChoice input:checked + h2 {
-  color: #fff;
-}
-
-.modalItems4FormChoice span {
-  border-radius: 50%;
-  background-color: white;
-  aspect-ratio: 1;
-  width: 16px;
-  height: 16px;
-}
-
-.ModalItems4Forms h2 {
-  margin: 0;
-}
-
-.ModalItemsInput {
-  font-family: Jost;
-  font-size: 34px;
-  font-weight: 400;
-}
-
-.modalItems4FormButtonSubmit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 5px 0px 0px #c5722f;
-  border: none;
-  border-radius: 30px;
-  background: linear-gradient(219deg, #ea590d 7.74%, #fb913b 93.93%), #000;
-  color: white;
-  padding: 0px 24px;
-  height: 94px;
-  cursor: pointer;
-}
-
-.modalItems4FormButtonSubmit button:hover {
-  background: linear-gradient(
-    219deg,
-    rgba(234, 89, 13, 0.6) 7.74%,
-    rgba(251, 145, 59, 0.6) 93.93%
-  );
-}
 
 @media screen and (max-width: 1440px) {
   .modalItems4 {
@@ -154,19 +63,5 @@
   .headerImg {
     width: 150px;
     height: auto;
-  }
-
-  .modalItems4Form input {
-    width: 1100px;
-    height: 50px;
-  }
-
-  .ModalItemsInput {
-    font-size: 24px;
-  }
-
-  .modalItems4FormChoice {
-    width: 1150px;
-    height: 94px;
   }
 }
