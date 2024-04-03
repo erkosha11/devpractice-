@@ -1,0 +1,67 @@
+.modalOverlay {
+  width: 87%;
+  padding: 50px;
+  flex-direction: column;
+  border-radius: 23px;
+  background-color: #f0f0f0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 3;
+}
+
+.lineLogoAndButton {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  flex-direction: row-reverse;
+}
+
+.closeButton {
+  float: right;
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+}
+.popupFormInput {
+  padding: 15px 25px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Jost;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.109px;
+  border-radius: 23px;
+  background: #fff;
+  border: none;
+}
+
+.popupButton {
+  padding: 15px 25px;
+  border: none;
+  color: #fff;
+  font-family: Jost;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.109px;
+  border-radius: 23px;
+  background: linear-gradient(
+    219deg,
+    rgba(234, 89, 13, 0.6) 7.74%,
+    rgba(251, 145, 59, 0.6) 93.93%
+  );
+  cursor: pointer;
+}

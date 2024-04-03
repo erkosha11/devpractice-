@@ -1,0 +1,126 @@
+.infoTextReact {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 145px;
+}
+/* 1 container */
+
+.locationText {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+a {
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: grabbing;
+}
+
+.direction {
+  font-family: Jost;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 101.88px;
+  text-align: left;
+}
+
+.courseProgramText .locationText {
+  display: flex;
+}
+
+.courseProgram {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  white-space: nowrap;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 13px 22px;
+}
+
+.courseProgramReact {
+  display: flex;
+  gap: 20px;
+}
+
+.intro {
+  font-family: Jost;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.agitation {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 1600px) {
+  .courseProgramReact {
+    gap: 19px;
+  }
+  .courseProgram {
+    padding: 13px 22px;
+    font-size: 18px;
+  }
+  .direction {
+    font-size: 60px;
+  }
+  .agitation {
+    font-size: 18px;
+  }
+  .general {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 1520px) {
+  .infoTextReact {
+    gap: 112.67px;
+  }
+  .direction {
+    font-size: 54px;
+  }
+  .courseProgramReact {
+    gap: 15.99px;
+  }
+  .courseProgram {
+    padding: 9.45px 16px;
+    font-size: 18px;
+  }
+  .intro {
+    font-size: 24px;
+  }
+  .agitation {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .infoTextReact {
+    gap: 68px;
+  }
+}

@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+  background: #fff;
+  padding: 40px;
+  justify-content: space-between;
+  gap: 40px;
+}
+.h4 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+
+.courseVideo {
+  width: 424px;
+  height: 209px;
+  border-radius: 20px;
+}
+
+video {
+  width: 424px;
+  height: 209px;
+  border-radius: 20px;
+}
+
+.li {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.76px;
+  text-align: left;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+
+.button {
+  border-radius: 20px;
+  background: linear-gradient(219deg, #ea590d 7.74%, #fb913b 93.93%), #ffffff;
+  color: white;
+  height: 64px;
+  color: #fff;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.109px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 424px;
+  box-shadow: 0px 8px 0px 0px rgba(197, 114, 47, 1);
+}

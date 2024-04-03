@@ -1,0 +1,35 @@
+.statement {
+  box-shadow: 0px 5px 0px 0px #c5722f;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(219deg, #ea590d 7.74%, #fb913b 93.93%), #000;
+  color: white;
+  height: 64px;
+  color: #fff;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.109px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 1600px) {
+  .statement {
+    height: 64px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1520px) {
+  .statement {
+    height: 46.5px;
+    font-size: 18px;
+    margin-top: 7.3px;
+    border-radius: 14.538px;
+  }
+}

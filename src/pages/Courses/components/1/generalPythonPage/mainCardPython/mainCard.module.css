@@ -1,0 +1,59 @@
+/* main  background */
+.mainCardPython {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 52px;
+  background: #f0f0f0;
+  padding: 60px;
+  position: relative;
+}
+
+.mainCardPython::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 32%;
+  width: 10%;
+  height: 100%;
+  background-image: url(./mainCardImg/graphic.png);
+  background-size: 160px 128px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.mainCardPython::after {
+  background-position: bottom;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 46%;
+  width: 18%;
+  height: 100%;
+  background-image: url(./mainCardImg/graphicSecond.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1600px) {
+  .mainCardPython {
+    padding: 50px;
+  }
+  .mainCardPython::after {
+    left: 38%;
+    width: 20%;
+    height: 100%;
+    background-size: 70%;
+  }
+}
+@media (max-width: 1520px) {
+  .mainCardPython {
+    margin-top: 44px;
+    padding: 43.61px 27.17px 40.36px 43.61px;
+  }
+  .mainCardPython::after {
+    left: 42%;
+    width: 20%;
+    height: 100%;
+    background-size: 70%;
+  }
+}

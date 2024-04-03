@@ -1,0 +1,137 @@
+.feedbackBlock {
+  margin-bottom: 140px;
+}
+
+.textHeader {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Jost;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.5%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 26px;
+}
+
+.buttonArrow {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonLeft {
+  display: flex;
+  border-radius: 24px;
+  background: #f0f0f0;
+  background-image: url(./img/ArrowL.png);
+  background-position: center;
+
+  background-repeat: no-repeat;
+  border: none;
+  height: 78px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonRight {
+  display: flex;
+  border-radius: 24px;
+  background: #f0f0f0;
+  background-image: url(./img/ArrowR.png);
+  background-position: center;
+  background-size: 23%;
+  background-repeat: no-repeat;
+  border: none;
+  height: 78px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.feedbackBlock {
+  width: 100%;
+  overflow: hidden; /* Скрываем излишек содержимого */
+}
+
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.usersCard {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.innerText {
+  background-color: #f0f0f0;
+  padding: 50px 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.userName {
+  font-family: Jost;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+
+.userText {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+  width: 94%;
+}
+
+.buttonRight:hover {
+  display: flex;
+  border-radius: 24px;
+  background: #101010;
+  background-image: url(./img/ArrowWhiteR.png);
+  background-position: center;
+  background-size: 23%;
+  background-repeat: no-repeat;
+  border: none;
+  height: 78px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonLeft:hover {
+  display: flex;
+  border-radius: 24px;
+  background: #101010;
+  background-image: url(./img/ArrowWhiteL.png);
+  background-position: center;
+  background-size: 23%;
+  background-repeat: no-repeat;
+  border: none;
+  height: 78px;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
