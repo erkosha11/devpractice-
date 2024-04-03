@@ -50,6 +50,8 @@
   justify-content: center;
   flex-direction: column;
 
+  text-align: justify;
+
   width: 750px;
   height: 711px;
 }

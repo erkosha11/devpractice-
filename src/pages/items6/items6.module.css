@@ -35,6 +35,8 @@
 .items6Text {
   display: flex;
   flex-direction: column;
+
+  text-align: justify;
 }
 
 .items6More h1 {

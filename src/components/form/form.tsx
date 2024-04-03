@@ -24,8 +24,18 @@ export const CustomForm = () => {
             <SuccessMessage />
           ) : (
             <Form className={`${styles.form} ${isSubmitted && styles.hidden}`}>
-              <Input label="" name="firstName" id="firstName" placeholder="Ваше имя" />
-              <Input label="" name="number" id="number" placeholder="Ваш телефон" />
+              <Input
+                label=""
+                name="firstName"
+                id="firstName"
+                placeholder="Ваше имя"
+              />
+              <Input
+                label=""
+                name="number"
+                id="number"
+                placeholder="Ваш телефон"
+              />
               <div className={styles.languageCheckbox}>
                 <input
                   type="radio"
@@ -33,7 +43,9 @@ export const CustomForm = () => {
                   id="react"
                   value="react"
                   checked={values.language === "react"}
-                  onChange={(e) => setFieldValue("language", e.target.checked ? "react" : "")}
+                  onChange={(e) =>
+                    setFieldValue("language", e.target.checked ? "react" : "")
+                  }
                 />
                 <label htmlFor="react">
                   <span className={styles.modalItems4FormButton}></span>
@@ -45,7 +57,9 @@ export const CustomForm = () => {
                   id="python"
                   value="python"
                   checked={values.language === "python"}
-                  onChange={(e) => setFieldValue("language", e.target.checked ? "python" : "")}
+                  onChange={(e) =>
+                    setFieldValue("language", e.target.checked ? "python" : "")
+                  }
                 />
                 <label htmlFor="python">
                   <span className={styles.modalItems4FormButton}></span>

@@ -17,17 +17,15 @@ function Items7() {
     }, 2000);
   }, []);
 
-  const nextReview = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === reviews.length - 2 ? 0 : prevIndex + 1
-    );
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex < reviews.length - 1 ? prevIndex + 1 : 0
+      );
+    }, 5000);
 
-  const prevReview = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? reviews.length - 2 : prevIndex - 1
-    );
-  };
+    return () => clearInterval(interval);
+  }, [currentIndex, reviews.length]);
 
   return (
     <div className={styles.items7} id="comments">
@@ -42,40 +40,42 @@ function Items7() {
             <div className={styles.items7Buttons}>
               <button
                 className={styles.items7ArrowLeft}
-                onClick={prevReview}
+                onClick={() =>
+                  setCurrentIndex((prevIndex) =>
+                    prevIndex > 0 ? prevIndex - 1 : reviews.length - 1
+                  )
+                }
               ></button>
               <button
                 className={styles.items7ArrowrRight}
-                onClick={nextReview}
+                onClick={() =>
+                  setCurrentIndex((prevIndex) =>
+                    prevIndex < reviews.length - 1 ? prevIndex + 1 : 0
+                  )
+                }
               ></button>
             </div>
           </div>
           <div className={styles.items7Cards}>
-            {loading ? (
-              [...new Array(2)].map((_, index) => (
-                <Items7Skeleton key={index} className={styles.items7Card} />
-              ))
-            ) : (
-              <div className={styles.items7Cards}>
-                {[0, 1].map((index) => {
-                  const reviewIndex = (currentIndex + index) % reviews.length;
-                  return (
-                    <div className={styles.items7Card} key={index}>
-                      <div className={styles.items7CardImg}>
-                        <img
-                          src={reviews[reviewIndex].img}
-                          alt={reviews[reviewIndex].name}
-                        />
-                      </div>
-                      <div className={styles.items7Text}>
-                        <h2>{reviews[reviewIndex].name}</h2>
-                        <p>{reviews[reviewIndex].description}</p>
-                      </div>
+            {loading
+              ? [...new Array(2)].map((_, index) => (
+                  <Items7Skeleton key={index} className={styles.items7Card} />
+                ))
+              : reviews.map((review, index) => (
+                  <div
+                    className={styles.items7Card}
+                    key={index}
+                    style={{ transform: `translateX(${-currentIndex * 102}%)` }}
+                  >
+                    <div className={styles.items7CardImg}>
+                      <img src={review.img} alt={review.name} />
                     </div>
-                  );
-                })}
-              </div>
-            )}
+                    <div className={styles.items7Text}>
+                      <h2>{review.name}</h2>
+                      <p>{review.description}</p>
+                    </div>
+                  </div>
+                ))}
           </div>
         </div>
       </div>

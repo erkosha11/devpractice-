@@ -25,6 +25,8 @@
   border-radius: 30px;
   width: 810px;
   height: 70px;
+
+  cursor: pointer;
 }
 
 .languageCheckbox input {

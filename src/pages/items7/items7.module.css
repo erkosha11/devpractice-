@@ -75,9 +75,10 @@
 
 .items7Cards {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
   gap: 30px;
+  overflow: hidden;
 }
 
 .items7Card {
@@ -85,11 +86,14 @@
   flex-direction: row;
   gap: 30px;
 
+  flex: 0 0 auto;
   width: 834px;
   height: 471px;
 
   transition: transform 0.5s ease;
 }
+
+
 
 .items7CardImg {
   width: 267px;
@@ -120,6 +124,7 @@
 
 .items7Text p {
   color: #00000080;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1440px) {
@@ -139,22 +144,17 @@
   }
 
   .items7Text {
-    width: 1004px;
+    width: 880px;
     height: 189px;
-  }
-
-  .items7Card:nth-child(n + 2) {
-    display: none;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .items7Control {
+    margin-bottom: 30px;
+  }
 
-.items7Control{
-  margin-bottom: 30px;
-}
-
-  .items7Title{
+  .items7Title {
     margin: 0;
   }
   .items7Buttons button {
@@ -164,6 +164,13 @@
 
   .items7Card {
     width: 910px;
+    height: 319px;
+
+    gap: 10px;
+  }
+
+  .items7CardImg {
+    width: 191px;
     height: 319px;
   }
 
@@ -177,11 +184,7 @@
     height: 229px;
   }
 
-  .items7Text p{
+  .items7Text p {
     font-size: 18px;
-  }
-
-  .items7Card:nth-child(n + 2) {
-    display: none;
   }
 }
