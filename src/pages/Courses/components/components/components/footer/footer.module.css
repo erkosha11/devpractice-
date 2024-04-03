@@ -1,0 +1,42 @@
+.headerDerivative {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+.footerWrapper {
+  padding: 40px 0px;
+  border-top: 1px solid #d2d2d2;
+}
+
+.containerMenu {
+  display: flex;
+  gap: 21.81px;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li {
+  border-radius: 17.45px;
+  border: 0.73px solid;
+  padding: 9.45px 15.99px 9.45px 15.99px;
+  gap: 7.27px;
+  border-color: rgba(210, 210, 210, 1);
+  opacity: 0px;
+}
+
+.textBar {
+  font-family: Jost;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31.2px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+
+.logo {
+  width: 179px;
+  height: 46px;
+  cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+  background: #fff;
+  padding: 40px;
+  justify-content: space-between;
+  gap: 40px;
+}
+.h4 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+
+.courseVideo {
+  border-radius: 20px;
+  width: 424px;
+  height: 209px;
+  flex-shrink: 0;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.li {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.76px;
+  text-align: left;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1600px) {
+  .container {
+    padding: 40px;
+    gap: 40px;
+  }
+  .courseVideo {
+    width: 424px;
+    height: 209px;
+  }
+}
+@media (max-width: 1520px) {
+  .container {
+    padding: 29.08px 29.08px 26.51px;
+    gap: 29.08px;
+    margin-bottom: 3.3px;
+  }
+  .h4 {
+    font-size: 18px;
+  }
+  .li {
+    font-size: 18px;
+    gap: 20px;
+  }
+  .courseVideo {
+    width: 308.207px;
+    height: 151.923px;
+  }
+}

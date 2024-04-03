@@ -1,0 +1,79 @@
+.infoTextReact {
+  display: flex;
+  flex-direction: column;
+  width: 888px;
+  height: 611px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+/* 1 container */
+
+.locationText {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+}
+a {
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: grabbing;
+}
+
+.direction {
+  font-family: Jost;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 101.88px;
+  text-align: left;
+}
+
+.courseProgramText .locationText {
+  display: flex;
+}
+
+.CourseProgram {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  white-space: nowrap;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 13px 22px;
+}
+
+.courseProgramReact {
+  display: flex;
+  gap: 20px;
+}
+
+.intro {
+  font-family: Jost;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.agitation {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.10867924243211746px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+}
