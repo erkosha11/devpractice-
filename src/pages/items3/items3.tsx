@@ -41,7 +41,7 @@ function Items3() {
                       alt="ImgButtonFrontend"
                     />
                   </button>
-                  <Link to="courses">
+                  <Link to="react">
                     <button>
                       <img
                         className={styles.items3ImgClick}
@@ -76,7 +76,7 @@ function Items3() {
                       alt="ImgButtonBackend"
                     />
                   </button>
-                  <Link to="courses">
+                  <Link to="python">
                     <button>
                       <img
                         className={styles.items3ImgClick}
