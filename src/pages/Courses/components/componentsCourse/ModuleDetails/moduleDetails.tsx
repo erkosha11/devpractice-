@@ -11,7 +11,6 @@ export interface VideoDetail {
 
 interface ModuleDetailsProps {
   module: Module;
-  index: number;
 }
 
 const ModuleDetails: React.FC<ModuleDetailsProps> = ({ module }) => {
