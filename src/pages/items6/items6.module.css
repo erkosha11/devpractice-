@@ -44,13 +44,13 @@
 }
 
 .items6More button {
-  margin-top: 10px;
-  border-radius: 20px;
+  margin-top: 90px;
+  border-radius: 30px;
   background: linear-gradient(219deg, #ea590d 7.74%, #fb913b 93.93%);
   box-shadow: 0px 8px 0px 0px #c5722f;
   color: white;
   width: fit-content;
-  padding: 0px 150px;
+  padding: 25px 150px;
   border: none;
 }
 

@@ -26,13 +26,16 @@
 
 .items5CardMore {
   position: absolute;
-  top: 65%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 0;
   border-radius: 80px;
   width: 380px;
+  height: 98px;
+  display: flex;
+  align-items: center;
 }
 
 .items5Card {
@@ -44,8 +47,8 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1440px){
-.items5{
-  display: none;
-}
+@media screen and (max-width: 1440px) {
+  .items5 {
+    display: none;
+  }
 }
