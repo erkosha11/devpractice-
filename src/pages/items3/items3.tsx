@@ -3,6 +3,7 @@ import styles from "./items3.module.css";
 import ImgButton from "../../assets/svg/button (1).svg";
 import ImgButtonFrontend from "../../assets/svg/buttonfront.svg";
 import ImgButtonBackend from "../../assets/svg/buttonback.svg";
+import { Link } from "react-router-dom";
 
 function Items3() {
   return (
@@ -40,13 +41,15 @@ function Items3() {
                       alt="ImgButtonFrontend"
                     />
                   </button>
-                  <button>
-                    <img
-                      className={styles.items3ImgClick}
-                      src={ImgButton}
-                      alt="ImgButton"
-                    />
-                  </button>
+                  <Link to="courses">
+                    <button>
+                      <img
+                        className={styles.items3ImgClick}
+                        src={ImgButton}
+                        alt="ImgButton"
+                      />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -73,13 +76,15 @@ function Items3() {
                       alt="ImgButtonBackend"
                     />
                   </button>
-                  <button>
-                    <img
-                      className={styles.items3ImgClick}
-                      src={ImgButton}
-                      alt="ImgButton"
-                    />
-                  </button>
+                  <Link to="courses">
+                    <button>
+                      <img
+                        className={styles.items3ImgClick}
+                        src={ImgButton}
+                        alt="ImgButton"
+                      />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
